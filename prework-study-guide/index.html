@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
     </header>
     <br>
     <main>
-      <section class="card" id="html-section"></section>
+      <section class="card" id="html-section">
         <h2>HTML</h2>
           <ul>
             <li>All HTML code must start with !DOCTYPE html</li>
@@ -21,15 +22,23 @@
             <li>Head element contains information for the web browsers but not shown to a user</li>
             <li>the body element reprents what is show on the browser</li>
           </ul>
-      <section class="card" id="css-section"></section>
+        </section>
+      <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
           <li>Inline CSS is where I can add CSS code directly to HTML code by simply adding it in</li>
           <li>There are internal CSS spreadsheets</li>
-            <p>This a code added directly to the head of the webpage. It'll inform this page only that all corresponding elements should be a certain critera</p>
-            <li>External CSS style sheet</li>
+              <p>This a code added directly to the head of the webpage. It'll inform this page only that all corresponding elements should be a certain critera</p>
+          <li>External CSS style sheet</li>
+          <li>CSS uses { and } symbols for code</li>
+          <li>A period before a will select a class</li>
+          <li>I can define an element with a class giving it a specific id such as "class="p1"" to separate it from other similar elements</li>
+          <li>Margins and padding are different!</li>
+            <p>Padding is the space between content and the border, margins is the space between the border and the next element (see picture below)</p>
+            <img class="img1" src="./assets/310-box-model.png" alt="image of diagram to explain the layout of padding and margins." />
         </ul>
-      <section class="card" id="git-section"></section> 
+      </section>
+      <section class="card" id="git-section"> 
         <h2>Git</h2>
         <ul>
           <li>First, hard to navigate</li>
@@ -42,17 +51,18 @@
             <p>This will then push my finialized branch edits to the main code in the repository</p>
           <li>"git add -A" adds all changes</li>
           <li>"git commit -m "description" " adds details to what was changed</li>
-
         </ul>
-      <section class="card" id="javascript-section"></section>
+      </section>
+      <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
           <Li>More to come</Li>
         </ul>
+      </section>
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <p class="p1"> I can code!</p>
     </footer>
   </body>
 </html>
