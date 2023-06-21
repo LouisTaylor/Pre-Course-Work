@@ -8,6 +8,8 @@ function listTopics() {
   }
 }
 
+// This line section is to list all of the available topics
+
 function selectTopics() {
 if (randomTopic === 'HTML') {
   console.log("Let's study HTML!");
@@ -22,13 +24,15 @@ if (randomTopic === 'HTML') {
 }
 }
 
+// This section provides a random list of the topics
+
 console.log("Here are the topics we learned through Prework:");
 
 listTopics();
 
 console.log("Which topic should we study first?");
 
-selectTopics(randomTopic);
+selectTopics();
 
 /*
 var shapes = ["triangle", "square", "pentagon", "circle"];
